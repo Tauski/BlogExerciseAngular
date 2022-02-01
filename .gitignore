@@ -455,3 +455,8 @@ $RECYCLE.BIN/
 API/appsettings.json
 API/appsettings.Development.json
 API/blogapp.db
+API/blogapp.db-wal
+API/blogapp.db-shm
+client/ssl/server.crt
+client/ssl/server.key
+client/src/favicon.ico
