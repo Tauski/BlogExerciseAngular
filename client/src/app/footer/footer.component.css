@@ -1,0 +1,24 @@
+footer{
+    position:fixed;
+    bottom:0px;
+    background-color:rgb(56, 39, 39);
+    width:100%;   
+    color: thistle;
+}
+
+a{
+    color: thistle;
+    text-decoration-line: underline;
+}
+a:hover{
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
