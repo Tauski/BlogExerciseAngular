@@ -1,3 +1,11 @@
 .img-circle{
     max-height: 50px;
 }
+
+.cellcontainer{
+    width: 25%;
+}
+
+.row{
+    padding: 5%;
+}

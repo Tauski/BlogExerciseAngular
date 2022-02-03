@@ -1,5 +1,13 @@
+.content{
+    min-height: calc(100vh - 70px);
+}
+
+.footer{
+    height: 50px;
+}
+
 footer{
-    position:fixed;
+    position: static;
     bottom:0px;
     background-color:rgb(56, 39, 39);
     width:100%;   

@@ -15,6 +15,8 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BlogCardComponent } from './blog/blog-card/blog-card.component';
+import { BlogPostComponent } from './blog/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ServerErrorComponent,
     AboutMeComponent,
     ContactMeComponent,
+    BlogCardComponent,
+    BlogPostComponent,
   ],
   imports: [
     BrowserModule,
