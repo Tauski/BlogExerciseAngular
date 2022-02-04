@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/"  routerLinkActive="active">Blog App</a>
+
+        <ul class="navbar-nav me-auto" >
+          <ng-container>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/aboutme"  routerLinkActive="active">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/messages"  routerLinkActive="active">Messages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/contactme"  routerLinkActive="active">Contact</a>
+            </li>
+          </ng-container>
+        </ul>
+
+          <div class="dropdown" dropdown>
+            <a class="dropdown-toggle text-light ml-2" dropdownToggle>Welcome Visitor</a>
+            <div class="dropdown-menu mt-3" *dropdownMenu>
+              <a routerLink="/member/edit" class="dropdown-item">Edit profile</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" (click)="logout()">Logout</a>
+            </div>
+          </div>
+    </div>
+  </nav>
