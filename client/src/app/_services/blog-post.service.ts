@@ -17,7 +17,7 @@ export class BlogPostService {
     return this.http.get<BlogPost[]>(this.baseUrl + 'posts')
   }
 
-  getPost(postId: string){
+  getPost(postId: number){
     return this.http.get<BlogPost>(this.baseUrl + 'posts/' + postId);
   }
 }

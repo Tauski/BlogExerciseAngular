@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { BlogPostComponent } from './blog/blog-post/blog-post.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
     path: '',
     children: [
       {path: 'blog', component: BlogComponent},
+      {path: 'blogs/:id', component: BlogPostComponent},
       {path: 'aboutme', component: AboutMeComponent},
       {path: 'messages', component: HomeComponent},
       {path: 'contactme', component: ContactMeComponent}
